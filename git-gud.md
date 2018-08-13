@@ -438,7 +438,7 @@ your repository is clean, has untracked files, has modified files, etc.
 If you want to see all the differences between between two commits, run:
 
 ```sh
-git diff <ORIGIN_COMMIT> <TARGET_COMMIT> # <TARGET_COMMIT> defaults to `HEAD`
+git diff <TARGET_COMMIT> <ORIGIN_COMMIT> # <TARGET_COMMIT> is optional and defaults to `HEAD`
 ```
 
 ### merge
